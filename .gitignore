@@ -1,0 +1,20 @@
+# Sensitive credentials — absolute must-not-push
+.env
+.env.*
+*.key
+*.pem
+*_secret*
+*_token*
+credentials*
+
+# Local-only stuff
+settings.local.json
+*.bak.*
+.DS_Store
+Thumbs.db
+
+# Skill-specific artifacts
+skills/**/*.db
+skills/**/*.sqlite
+skills/**/*.sqlite3
+skills/**/node_modules/
