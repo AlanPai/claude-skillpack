@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 // Verify Notion credentials and DB schema for the handover skill.
+// Mirrored to AlanPai/claude-skillpack via GitHub Actions on push to main.
 //
 // Usage:
 //   As library: import { verify } from './verify.mjs'
